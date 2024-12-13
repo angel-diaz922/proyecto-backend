@@ -1,0 +1,26 @@
+.contenido_menu {
+    min-width: 180px;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido_menu ul  {
+    margin: 10px 0 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #101314;
+}
+
+.contenido_menu a, li {
+    margin: 3px 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #101314;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contenido_menu a:hover {
+    color: red;
+}

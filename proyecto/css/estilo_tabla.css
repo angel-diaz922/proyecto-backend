@@ -1,0 +1,99 @@
+div h2 {
+    margin: 125px 0 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.volver {
+    position: fixed;
+    top: 100px;
+    margin-left: 2%;
+    background-color: black;
+}
+
+.volver button {
+    background-color: #101314;
+    font-size: 20px;
+}
+
+table {
+    background: #202324;
+    border: solid 1px red;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px red;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+th {
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: solid 3px #262929;
+}
+
+th button a {
+    font-size: 18px;
+}
+
+th button {
+    box-shadow: 0 0 2px white;
+}
+
+td {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #202324;
+    border-bottom: 1px solid red;
+}
+
+button {
+    padding: 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+}
+
+td i, a {
+    background: none;
+}
+
+.la-edit:hover {
+    color: red;
+    filter: drop-shadow(0 0 3px red);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.la-trash:hover {
+    color: red;
+    filter: drop-shadow(0 0 3px red);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.volver button:hover {
+    background-color: black;
+}
+
+tr:hover td {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+tr:nth-child(even) td {
+    background-color: #101314;
+}
+.price::before {
+    content: "$";
+}
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 15px red;   
+    background-color: #202324;
+}
